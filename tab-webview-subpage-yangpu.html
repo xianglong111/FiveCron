@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" /> 
+    <script type="text/javascript" src="./js/swipe.min.js" ></script>
+    <script>
+        window.onload = function(){
+        	var aStr = ['杨浦','百年大学','百年市政','百年工业','杨浦'];
+        	var title = document.getElementById("y-title");
+        	slider = new Swipe(document.getElementById('slider'), {
+    			callback: function(event, index, elem) {
+    				title.innerText = aStr[index];
+				}
+    		})
+        } ;
+    </script>
+</head>
+<body>	
+	<div class="h10"></div>
+	<div class="y-top ml10 pl10">全面创新发展的杨浦</div>
+	<div class="y-top-b ml10 pl10">共融&nbsp;&nbsp;&nbsp;&nbsp;共创&nbsp;&nbsp;&nbsp;&nbsp;共享</div>
+	<div class="y-line">
+		<div class="y-block"></div>
+		<div id="y-title">杨浦</div>		
+	</div>
+	<div id='slider'>
+      <ul>
+          <li style='display:none'>
+          		<div class="row">
+          			<div class="col-xs-1"></div>
+          			<div class="col-xs-10">
+          				<p>杨浦位于上海中心区东北部，浦江下游西北岸，西临虹口,北接宝山，隔浦江与浦东相望。杨树浦港纵贯区境南北，杨浦即以此演变得名，南部沿江地带是曾经的上海公共租界东区，中部偏东部区域则为“大上海计划”的实施地。杨浦区不仅拥有中心城区里最长的15.5公里的白金滨江岸线，经济实力也十分强劲，市区内唯一的规划生态岛屿复兴岛亦坐落于该区。杨浦坐拥上海四大城市副中心之一，十大商业中心之一的江湾五角场；上海第三代国际社区新江湾城；产值丰厚的环同济知识经济圈；世界500强汇集的大连路总部研发集聚区以及东外滩。</p>          				
+          			</div>
+          			<div class="col-xs-1"></div>
+          		</div>
+          </li>
+          <li style='display:block' class="y-second-vCenter">
+			<div class="row">
+          			<div class="col-xs-1"></div>
+          			<div class="col-xs-10">
+          				<div class="row">
+	          				<div class="col-xs-9"><img src="img/y-shfd.png" class="img-responsive" /></div>
+	          				<div class="col-xs-3">1905年</div>
+          				</div>
+          				<div class="row">
+	          				<div class="col-xs-9"><img src="img/y-shlg.png" class="img-responsive" /></div>
+	          				<div class="col-xs-3">1905年</div>
+          				</div>
+          				<div class="row">
+	          				<div class="col-xs-9"><img src="img/y-shtj.png" class="img-responsive" /></div>
+	          				<div class="col-xs-3">1905年</div>
+          				</div>
+          				<div class="row">
+	          				<div class="col-xs-9"><img src="img/y-shhy.png" class="img-responsive" /></div>
+	          				<div class="col-xs-3">1905年</div>
+          				</div>
+          				<div class="row">
+	          				<div class="col-xs-9"><img src="img/y-shcj.png" class="img-responsive" /></div>
+	          				<div class="col-xs-3">1905年</div>
+          				</div>
+          			</div>
+          			<div class="col-xs-1"></div>
+          		</div>
+          </li>
+          <li style='display:none'>
+			<div class="row">
+          			<div class="col-xs-3"></div>
+          			<div class="col-xs-6">
+          				<img src="img/y-3.png" class="img-responsive"/>         				
+          			</div>
+          			<div class="col-xs-3"></div>
+          		</div>
+          </li>
+          <li style='display:none'>
+		  	<div class="row">
+          			<div class="col-xs-1"></div>
+          			<div class="col-xs-10">
+          				<img src="img/y-4.png" class="img-responsive"/>         				
+          			</div>
+          			<div class="col-xs-1"></div>
+          		</div>
+          </li>
+          <li style='display:none'>
+			<div class="row">
+          			<div class="col-xs-3"></div>
+          			<div class="col-xs-6">
+          				<img src="img/y-5.png" class="img-responsive"/>         				
+          			</div>
+          			<div class="col-xs-3"></div>
+          		</div>
+          </li>          
+      </ul>
+   </div>  
+</body>
+</html>

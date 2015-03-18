@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" /> 
+    <script type="text/javascript" src="./js/swipe.min.js" ></script>
+    <script>
+        window.onload = function(){
+        	slider = new Swipe(document.getElementById('slider'), {
+    		callback: function(event, index, elem) {
+    				alert(index);
+			}})
+        } ;
+    </script>
+</head>
+<body>
+	<div id='slider'>
+      <ul>
+          <li style='display:block'><div>100000</div></li>
+          <li style='display:none'><div>2</div></li>
+          <li style='display:none'><div>3</div></li>
+          <li style='display:none'><div>4</div></li>
+          <li style='display:none'><div>5</div></li>
+          <li style='display:none'><div>6</div></li>
+      </ul>
+   </div>  
+</body>
+</html>

@@ -1,0 +1,6 @@
+.mui-bar.mui-bar-tab{background:rgba(255,255,255,0.2) url(../img/button-gloss.png) repeat-x 0 -21px;-webkit-box-shadow:none;box-shadow: none;border-bottom: 1px solid rgba(255,255,255,0.2);border-top-left-radius: 5px;border-top-right-radius: 5px;}
+.mui-bar-tab .mui-tab-item{height:50px;border-right: 1px solid rgba(255,255,255,0.2);}
+.mui-tab-label{font-family:"微软雅黑";display:block;font-size:0.9em;font-weight: 700;color:rgba(0,0,0,0.6);text-shadow: 0 1px 1px rgba(255,255,255,0.5);  }
+.tab-border{height: 50px;line-height: 50px;border-right: 1px solid rgba(0,0,0,0.2);}
+.mui-bar-tab .mui-tab-item:last-child{border:none}
+.mui-bar-tab .mui-tab-item.mui-active{background:rgba(11,194,217,0.7) url(../img/button-gloss.png) repeat-x 0 -21px;border-right: 1px solid rgba(189,196,204,0.6);}
