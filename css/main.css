@@ -6,12 +6,17 @@ body{background-image: url(../img/main_bg.jpg);background-size: cover;color:#fff
 
 .y-top{background: #d38413;padding:0.2em 0;font-size:1em;}
 .y-top-b{font-size: 0.8em;padding:0.5em 0;}
-.y-line{margin:10%;position:relative}
+.y-line{margin:8%;position:relative}
 #y-title{position: absolute;bottom:-14px;left:35px;font-size: 1.3em;background-color: rgba(255,255,255,0.4);padding:8px 15px 8px 30px;z-index: -20;}
 .y-block{width: 60px;height: 60px;border:4px solid #d38413;}
-.y-second-vCenter .col-xs-10 .row{vertical-align:middle;margin-bottom:5px; display: table;}
-.y-second-vCenter .col-xs-10 .row .col-xs-3{display:table-cell;vertical-align:middle;}
 
-.h10{margin-top: 16%;}
+.qy1-text{display: inline-block;font-size: 2em;font-weight: bold;}
+#qy1-title{font-size:1.1em;font-family: "宋体";}
+
+
+.text-small{font-size: 0.8em;}
+.hr{border-top:1px solid rgba(255,255,255,0.4);}
+.h16{margin-top: 16%;}
+.h6{margin-top:6%}
 .ml10{margin-left:8%;}
 .pl10{padding-left: 10%;}

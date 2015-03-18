@@ -8,18 +8,92 @@
     <link rel="stylesheet" href="css/main.css" /> 
     <script type="text/javascript" src="./js/swipe.min.js" ></script>
     <script>
-        window.onload = function(){slider = new Swipe(document.getElementById('slider'))} ;
+        window.onload = function(){
+        	var aStr = ['上海五角场高新技术产业园','复旦大学国家大学科技园','同济科技园','上海杨浦国家高新技术创业服务中心','杨浦'];
+        	var title = document.getElementById("qy1-title");
+        	slider = new Swipe(document.getElementById('slider'), {
+    			callback: function(event, index, elem) {
+    				title.innerText = aStr[index];
+				}
+    		})
+        } ;
     </script>
 </head>
 <body>	
+	<div class="h16"></div>	
+	<div class="row qy1-top">
+         <div class="col-xs-1"></div>
+         <div class="col-xs-10">
+          	<div class="qy1-text">
+          		园区名单
+          		<div class="hr"></div>
+          	</div>
+			
+			<div id="qy1-title">上海五角场高新技术产业园</div>
+         </div>
+         <div class="col-xs-1"></div>
+    </div>
+    <div class="h6"></div>
 	<div id='slider'>
       <ul>
-          <li style='display:block'><div>100000</div></li>
-          <li style='display:none'><div>2</div></li>
-          <li style='display:none'><div>3</div></li>
-          <li style='display:none'><div>4</div></li>
-          <li style='display:none'><div>5</div></li>
-          <li style='display:none'><div>6</div></li>
+          <li style='display:none'>
+          		<div class="row">
+          			<div class="col-xs-1"></div>
+          			<div class="col-xs-10">
+          				<img src="img/qy1/1.png" class="img-responsive" />
+          				<p class="text-small">
+          					上海五角场高新技术产业园成立于1996年，主要履行代表区政府对科技园区建设的投融资职能、搭建科技项目的投融资平台，致力于高新技术成果的转化，扶持和服务各类科技型企业成长，发展高新技术产业。通过多年来的建设，园区目前已拥有杨浦科技大厦、同叶大厦、中建国际大楼、虬江码头基地、赛特工业园、长阳分园6个基地，商务办公面积达13.15万平方米。
+          				</p>
+          				<p class="text-small">
+          					园区目前已成为知识人才创新创业的理想乐园、上海民营科技企业的“摇篮”，培育出一大批知名的民营高科技企业（大亚科技、邮电设计院、天跃科技、天臣防伪、思唯环保）等。在区域内各科技园区中起到了引领和示范作用。五高科园区将在杨浦创建新型试点城区这样一个全新的发展舞台上，迎来更加光辉灿烂的明天。
+          				</p>
+          			</div>
+          			<div class="col-xs-1"></div>
+          		</div>
+          </li>
+          <li style='display:block'>
+			<div class="row">
+          			<div class="col-xs-1"></div>
+          			<div class="col-xs-10">
+          				<img src="img/qy1/2.png" class="img-responsive"/>
+          				<div class="h6"></div>
+          				<p class="text-small">复旦科技园的产业定位为电子信息业，园区环绕复旦大学校区周边，为大学资源延伸、产学研 互动在地理空间上带来极大便利。根据不同功能定位，分为以聚集、培育成长型高科技企业为主的主园区，位于国泰路11号；以研发及人才培训为主的信息产业研发基地，位于邯郸路100号；以聚集、培育初创期数字媒体企业为主的复旦科技园国家数字媒体产业基地，位于国泰路127号。</p>
+          				<p class="text-small">上海复旦科技园股份有限公司作为复旦大学国家大学科技园的运作载体，具体承担科技园的建设和管理。公司由复旦大学、上海杨浦科技投资发展有限公司、上海陆家嘴金融贸易区开发股份有限公司、上海上科科技投资有限公司、上海市科技创业中心、上海新杨浦置业有限 公司六家股东投资组建，注册资本1亿元人民币。</p>
+          			</div>
+          			<div class="col-xs-1"></div>
+          		</div>
+          </li>
+          <li style='display:none'>
+			<div class="row">
+          			<div class="col-xs-1"></div>
+          			<div class="col-xs-10">
+          				<img src="img/qy1/3.png" class="img-responsive"/>   
+          				<div class="h6"></div>
+          				<p>
+          					同济大学科技园是科技部和教育部联合认定的国家级大学科技园，它依托百年名校——同济大学独特的学科和人才优势、丰硕的科研成果和强大的科技实力而建立。同济大学科技园2003年被科技部、教育部授予“同济大学国家大学科技园”，2005年被科技部授予“国家高新技术创业服务中心”，2009年被科技部授予“国家火炬计划环同济研发设计服务特色产业基地”，2010年被科技部授予“大学生科技产业见习基地”。
+          				</p>
+          			</div>
+          			<div class="col-xs-1"></div>
+          		</div>
+          </li>
+          <li style='display:none'>
+		  	<div class="row">
+          			<div class="col-xs-1"></div>
+          			<div class="col-xs-10">
+          				<img src="img/qy1/4.png" class="img-responsive"/>         				
+          			</div>
+          			<div class="col-xs-1"></div>
+          		</div>
+          </li>
+          <li style='display:none'>
+			<div class="row">
+          			<div class="col-xs-1"></div>
+          			<div class="col-xs-10">
+          				<img src="img/y-5.png" class="img-responsive"/>         				
+          			</div>
+          			<div class="col-xs-1"></div>
+          		</div>
+          </li>          
       </ul>
    </div>  
 </body>
